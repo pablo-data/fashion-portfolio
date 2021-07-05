@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-portfolio-fashion';
+
+
+  resetPosition(event: any) {
+    let content : any = document.getElementById("content");
+    //content.scrollTop = 0;
+  }
 }

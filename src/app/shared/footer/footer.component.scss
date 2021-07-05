@@ -1,0 +1,89 @@
+footer{
+    background:#F0E9DD;
+    height: 300px;
+}
+
+.title{
+    font-family: 'Cormorant', serif;
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+
+.title button {
+    text-decoration: none;
+    border: none;
+    background:#F0E9DD ;
+}
+
+.icons {
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.icons a{
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    float: left;
+	width: 45px;
+	height: 45px;
+	border-radius: 100%;
+    background: black;
+    opacity: 97%;
+}
+
+.icons a i{
+    line-height: 47.5px;
+	color:#F0E9DD;
+}
+
+.fa-linkedin-in{
+    font-size: 28.7px;
+}
+
+.fa-instagram {
+    font-size: 31.2px;
+}
+
+.fa-facebook-f{
+    padding-top: 4.9px;
+    font-size: 32.5px;
+}
+
+.fa-youtube{
+    font-size: 26.2px;
+}
+
+.email a{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family:'Segoe UI';
+    color: black;
+    opacity: 87%;
+}
+
+.email a i {
+    margin-right: 6px;
+}
+
+.wsp a{
+    margin-top: 2px;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family:'Segoe UI';
+    color: black;
+    opacity: 87%;
+}
+
+.wsp a i {
+    margin-right: 3px;
+    font-size: 22px;
+}
