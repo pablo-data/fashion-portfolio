@@ -123,7 +123,7 @@ section{
 }
 
 //contenido portada
-#portada-1, #portada-2, #portada-3, #portada-4, #portada-5, #portada-6, #portada-7, #portada-8,  #portada-9, #portada-10, #portada-11, #portada-12{
+#portada-1-m, #portada-2-m, #portada-3-m, #portada-4-m, #portada-5-m, #portada-6-m, #portada-7-m, #portada-8-m,  #portada-9-m, #portada-10-m, #portada-11-m, #portada-12-m{
     height: auto;
 }
 
@@ -227,4 +227,8 @@ section{
 
 .video-9 iframe{
     margin-top: 70px;
+}
+
+.boton{
+    text-align: end;
 }

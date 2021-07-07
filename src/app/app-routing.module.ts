@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 import { ScreenHomeComponent } from './screens/screen-home/screen-home.component';
 import { ScreenCurriculumComponent } from './screens/screen-curriculum/screen-curriculum.component';
@@ -35,6 +35,7 @@ const routes: Routes = [
     onSameUrlNavigation: "reload",
     anchorScrolling:'enabled',
     scrollPositionRestoration: 'enabled',
+    preloadingStrategy : PreloadAllModules
   })],
   exports: [RouterModule]
 })
