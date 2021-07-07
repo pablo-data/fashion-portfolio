@@ -1,28 +1,7 @@
-<body>
-  <div class="home">
-    <div class="balls">
-        <i id="color-1"></i>
-        <i id="color-2"></i>
-        <i id="color-3"></i>
-        <i id="color-4"></i>
-        <i id="color-5"></i>
-    </div>
-    <div class="wrapper">
-        <h1 class="title">DANIELA FUENTES</h1>
-        <h2 class="description">TÉCNICO EN PRODUCCIÓN INDUSTRIAL DE VESTUARIO</h2>
-    </div>
-    <div class="options">
-        <button routerLink="/about">
-            SOBRE MÍ
-        </button>
-        <p>|</p>
-        <button routerLink="/portfolio">
-            PORTAFOLIO
-        </button>
-        <p>|</p>
-        <button routerLink="/curriculum">
-            CV
-        </button>
-    </div>
-</div>
-</body>
+<div class="d-none d-xl-block">
+    <app-desktop-home></app-desktop-home>
+  </div>
+  
+  <div class="d-block d-xl-none">
+    <app-mobile-home></app-mobile-home>
+  </div>

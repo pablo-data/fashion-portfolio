@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+.image{
+    display: inline-flex;
+}
+
+//cambiar a absoluta para cambiar imagen
+img{
+    width: 250px;
+    height: 400px;
+}
+
+//balls
+.balls{
+    width: 20%;
+    height: 1%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.balls i{
+    margin: 8px 3px 0px 3px;
+    float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+
+#color-1{
+    background: rgba(158, 114, 78, 0.8);
+}
+
+#color-2{
+    background:rgba(182, 155, 126, 0.8);
+}
+
+#color-3{
+    background: rgba(200, 135, 112, 0.8);
+}
+
+#color-4{
+    background: rgba(195, 190, 186, 0.8);
+}
+
+#color-5{
+    background: rgba(240, 233, 221, 0.8);
+}
+
+.about {
+    font-family: 'Overpass', sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.title{
+    background:rgba(182, 155, 126, 0.68);
+    color: white;
+    width: 98%;
+    border-radius: 0px 20px 20px 0px;
+    text-align:center;
+    font-family: 'Overpass', sans-serif;
+    font-style:normal;
+    font-size: 28px;
+    padding-top: 4px;
+    padding-left: 2%;
+}
+
+.antecedentes{
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    padding: 10% 0px;
+    font-family: 'Segoe UI';
+}
+
+.antecedentes p{
+    margin-bottom: 2px;
+}
+
+.habilidades-digitales{
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    padding: 10% 0px;
+    font-family: 'Segoe UI';
+}
+
+.habilidades-digitales p{
+    margin: -1px 0px;
+}
+
+.competencias{
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    padding: 10% 0px;
+    font-family: 'Segoe UI';
+}
+
+.competencias p{
+    margin: -1px 0px;
+}
+
+.idiomas{
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    padding: 10% 0px;
+    font-family: 'Segoe UI';
+}
+
+.idiomas p{
+    margin: -1px 0px;
+}
+
+.logros{
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    padding: 10% 0px;
+    font-family: 'Segoe UI';
+}
+
+
+.logros p{
+    margin: -1px 0px;
+}
+
+.habilidades{
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    padding: 10% 0px;
+    font-family: 'Segoe UI';
+}
+
+.habilidades p{
+    margin-bottom: 2px;
+}
+
+.intereses{
+    font-size: 25px;
+    text-align: justify;
+    width: auto;
+    padding: 10% 0px;
+    font-family: 'Segoe UI';
+}
+
+.contenido{
+    display: flex;
+}
+
+
+.derecha{
+    width: auto;
+    text-align: center;
+    background: rgba(195,190,186, 0.6);
+    font-family: 'Segoe UI';
+    margin-bottom: 30px;
+}
+
+.derecha section{
+    padding-top: 3px;
+    padding-bottom: 30px;
+}
+
+.derecha section h2{
+    font-size: 28px;
+    font-weight: normal;
+    padding-top: 3px;
+    font-family: 'Overpass', sans-serif;
+    font-style:normal;
+}
+
+.derecha section h3{
+    font-size: 25px;
+}
+
+.derecha section h3{
+    text-decoration: underline;
+}
+
+.administracion{
+    width: 46%;
+    position: relative;
+    left: 28%;
+}
+
+.derecha section h4{
+    color: #C88770;
+    padding-top: 3px;
+    margin-bottom: 1px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.derecha section p{
+    font-size: 25px;
+    width: 70%;
+    position: relative;
+    left: 15%; 
+    margin-bottom: 0px;
+}
+
+.exp-prof p, .exp p{
+    margin-bottom: -5px;
+    text-align: start;
+}
+
+.iconos{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+}
+
+
+.iconos a{
+    text-decoration: none;
+    color: black;
+    width: 10%;
+}
+
+
+.iconos a i{
+    font-size: 30px;
+    margin-top: 11px;
+    padding-top: 10px; 
+}
+
+.iconos span{
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 6px;
+    margin: 0px 4px;
+}
+
+@media (max-width: 350px) {
+    .balls{
+        display: none;
+    }
+  }

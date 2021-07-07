@@ -1,0 +1,33 @@
+.wrapper{
+    text-align: center;
+    z-index: 1;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.title{
+    font-family: 'Cormorant', serif;
+    font-size: 6vh;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: -10px;
+    padding-top: 7vh;
+    
+}
+
+.description{
+    font-family: 'Candara';
+    margin-top: 2vh;
+    font-size: 2vh; 
+}
+
+.description button {
+    letter-spacing: 9px;
+}
+
+.title button:hover, .description button:hover{
+    color:gray;
+}
