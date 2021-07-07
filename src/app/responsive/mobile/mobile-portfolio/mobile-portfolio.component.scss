@@ -1,11 +1,6 @@
 //VH---------------------------------------------
 section{
-    height: 100vh;
-}
-
-.telas{
-    width: 100%;
-    height: 100vh;
+    height: 50vh;
 }
 
 .intro{
@@ -14,14 +9,14 @@ section{
 
 //TITLE
 .lateral{
-    transform: rotate(-90deg) translate(-55%, -550%);
-    width: 40%;
+    margin: 5%;
 }
 
 .lateral p{
-    margin-bottom: -2px;
-    font-size: 14px;
+    margin-bottom: 0px;
+    font-size: 1.2vh;
 }
+
 
 .title-portfolio{
     text-align: center;
@@ -29,7 +24,7 @@ section{
 }
 
 .title-portfolio h3{
-    font-size: 20px;
+    font-size: 1.8vh;
     letter-spacing: 10px;
     font-weight: normal;
     margin-bottom: 0px;
@@ -38,8 +33,8 @@ section{
 }
 
 .title-portfolio h1{
-    font-size: 115px;
-    letter-spacing: 35px;
+    font-size: 4.5vh;
+    letter-spacing: 10px;
     font-weight: lighter;
     font-family: 'Cormorant', serif;
     color: rgba(158, 114, 78, 0.87);
@@ -47,7 +42,7 @@ section{
 
 .border{
     background: black;
-    height: 3px;
+    height: 2px;
     width: 65%;
     margin-left: 17%;
 }
@@ -56,6 +51,7 @@ section{
 //contenidos
 .contenidos{
     text-align: center;
+    height: auto;
 }
 
 
@@ -65,47 +61,44 @@ section{
 
 .contenidos h2{
     margin-top: 10px;
-    letter-spacing: 28px;
+    letter-spacing: 10px;
     font-weight: lighter;
-    font-size: 83px;
+    font-size: 4vh;
     margin-bottom: 2px;
     font-family: 'Segoe UI',sans-serif;
 }
 
-.options{
-    transform: rotate(-90deg) translateX(880px);
-}
 
 .options a{
     text-decoration: none;
     color: black;
     display: block;
-    width: 35%;
-    margin: 50px 0px;
-    font-size: 23px;
-    text-align: end;
+    width: auto;
+    margin: 5% 0px;
+    font-size: 1.8vh;
+    text-align: center;
     font-family: 'Segoe UI',sans-serif;
 }
 
 .intro{
     text-align: center;
+    height: auto;
 }
 
 
 .intro h2{
-    padding-top: 100px;
+    padding-top: 6vh;
     font-family: 'Segoe UI',sans-serif;
     font-weight: lighter;
-    font-size: 83px;
-    letter-spacing: 25px;
-
+    font-size: 3vh;
+    letter-spacing: 1vh;
 }
 
 .box{
     margin-top: 5%;
     background: white;
     height: 380px;
-    width: 700px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -113,23 +106,27 @@ section{
 .presentacion{
     font-family: 'Segoe UI',sans-serif;
     font-weight: lighter;
-    font-size: 23px;
+    font-size: 1.8vh;
     border: 1px solid #9E724E;
-    width: 680px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     top:-350px;
-    left: 50px;
+    left: 30px;
 }
 
 .presentacion p{
     width: 90%;
     margin: auto;
-    padding: 20px 50px;
+    padding: 10px 25px;
 }
 
 //contenido portada
+#portada-1, #portada-2, #portada-3, #portada-4, #portada-5, #portada-6, #portada-7, #portada-8,  #portada-9, #portada-10, #portada-11, #portada-12{
+    height: auto;
+}
+
 .img-portada{
     width: 50%;
     height: 100vh;
@@ -144,45 +141,36 @@ section{
 
 #docente{
     font-family: 'Segoe UI',sans-serif;
-    font-size: 19px;
+    font-size: 2.6vh;
     font-weight: lighter;
-    line-height: 25px;
-    width: 280px;
-    margin-top: 30px;
-    padding-top: 30px;
-    margin-left: 65px;
+    width: auto;
+    text-align: center;
 }
 
 .ficha{
     font-family: 'Segoe UI',sans-serif;
-    font-size: 22px;
+    font-size: 2vh;
     font-weight: lighter;
-    line-height: 30px;
-    width: 530px;
-    margin-left: 45px;
-    margin-top: 80px;
+    width: 65%;
+    margin-left: 8%;
 }
 
-.ramo{
-    margin-top: 60px;
-    margin-left: 5px;
-}
-
-.contenido-portada h6{
+.ramo h6{
     font-family: 'Segoe UI',sans-serif;
-    font-size: 20px;
+    font-size: 2vh;
     font-weight: lighter;
     color: #9E724E;
     margin-left: 580px;
     margin-bottom: -40px;
 }
 
-.contenido-portada h2{
+#texto-9{
+    width: auto;
     font-family: 'Cormorant', serif;
-    font-size: 120px;
+    font-size: 5vh;
     font-weight: lighter;
-    position: relative;
-    left: -65px;
+    text-align: center;
+
 }
 
 //divided
@@ -231,16 +219,7 @@ section{
     margin-bottom: -30px;
 }
 
-#texto-9{
-    width: 800px;
-    font-family: 'Cormorant', serif;
-    font-size: 90px;
-    font-weight: lighter;
-    position: relative;
-    left: -100px;
-    text-align: center;
 
-}
 
 .video-9{
     text-align: center;
