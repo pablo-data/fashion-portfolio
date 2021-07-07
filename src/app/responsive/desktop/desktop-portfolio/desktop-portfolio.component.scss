@@ -1,7 +1,11 @@
 //VH---------------------------------------------
 section{
-    height: 100vh;
+    height: 110vh;
 }
+
+#portada-1, #portada-2, #portada-3, #portada-4, #portada-5, #portada-6, #portada-7, #portada-8, #portada-9, #portada-10, #portada-11, #portada-12{
+    height: auto!important;
+}    
 
 .telas{
     width: 100%;
