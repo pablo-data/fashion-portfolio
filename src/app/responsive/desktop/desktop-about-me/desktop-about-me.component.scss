@@ -9,7 +9,7 @@ section{
 .cuadrado-portada{
     width: 100%;
     background: #F0E9DD;
-    height: 250px;
+    height: 34vh;
     margin-top: 9%;
 }
 
@@ -20,7 +20,7 @@ section{
 }
 
 .lateral p{
-    font-size: 46px;
+    font-size: 6vh;
     transform: rotate(-90deg);
     width: 900px;
     position: relative;
@@ -32,19 +32,19 @@ section{
 
 .imagen{
     background: gray;
-    width: 330px;
-    height: 400px;
+    width: 45vh;
+    height: 55vh;
     position: relative;
-    left: 60px;
-    top:-420px;
+    left: 8.3vh;
+    top:-58vh;
 }
 
 .lateral h2{
     position: relative;
-    width: 60%;
-    top:-683px;
-    left: 430px;
-    font-size: 1.5em;
+    width: 65%;
+    top:-94vh;
+    left: 59vh;
+    font-size: 3.4vh;
     font-weight: lighter;
     font-family: 'Segoe UI',sans-serif;
 }
@@ -52,34 +52,38 @@ section{
 .container-1{
     background: #F0E9DD;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
 .parrafo{
-    margin-top: 10%;
     width: 50%;
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
     font-weight:lighter;
-    font-size: 22px;
+    font-size: 3vh;
     display: inline-block;
 }
 
 .parrafo p{
-    line-height: 35px;
+    line-height: 4.8vh;
 }
 
 
 .container-2{
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagen-1{
     background-image: url("https://i.ibb.co/vBW5xpR/IMG-5050-2.jpg");
     background-size:contain;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 450px;
+    width: 55vh;
+    height: 62vh;
     display: inline-block;
     margin-left: 100px;
 }
@@ -89,40 +93,8 @@ section{
     background:url("https://i.ibb.co/WF4wv1z/IMG-5030.jpg");
     background-size:contain;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 450px;
+    width: 55vh;
+    height: 62vh;
     display: inline-block;
     margin-right: 100px;
-    position: relative;
-    top:40px
-}
-
-.container-3{
-    text-align: center;
-    background: rgba(182, 155, 126,0.48);
-}
-
-
-.imagen-3{
-    background: white;
-    width: 400px;
-    height: 450px;
-    display: inline-block;
-    margin-left: 100px;
-    position: relative;
-    top:40px
-}
-
-.parrafo-3{
-    margin-top: 12%;
-    width: 450px;
-    text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-    font-weight:lighter;
-    font-size: 25px;
-    display: inline-block;
-}
-
-.parrafo-3 p{
-    line-height: 35px;
 }
